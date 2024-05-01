@@ -18,10 +18,12 @@ const app = createApp({});
 import HomeComponent from './components/HomeComponent.vue';
 import AdminComponent from './components/AdminComponent.vue';
 import NavbarComponent from './components/NavbarComponent.vue';
+import FooterComponent from './components/FooterComponent.vue';
 app.component('example-component', ExampleComponent);
 app.component('admin-component', AdminComponent);
 app.component('home-component', HomeComponent);
 app.component('nav-bar', NavbarComponent);
+app.component('footer-component', FooterComponent );
 
 /**
  * The following block of code may be used to automatically register your
@@ -32,7 +34,8 @@ app.component('nav-bar', NavbarComponent);
  */
 
 // Object.entries(import.meta.glob('./**/*.vue', { eager: true })).forEach(([path, definition]) => {
-//     app.component(path.split('/').pop().replace(/\.\w+$/, ''), definition.default);
+//     app.componeimport { FooterComponent } from 'resources/js/components/FooterComponent';
+// nt(path.split('/').pop().replace(/\.\w+$/, ''), definition.default);
 // });
 
 /**

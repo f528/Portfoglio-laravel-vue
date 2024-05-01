@@ -1,7 +1,7 @@
 <template>
-   <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+   <nav class="navbar navbar-expand-lg navbar-light bg-body-primary">
+  <div class="container-fluid ">
+
     <button
       data-mdb-collapse-init
       class="navbar-toggler"
@@ -16,19 +16,18 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="/resume">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="/project">Project</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled"
-            >Disabled</a
-          >
+          <a class="nav-link" href="/conatct">Contact</a>
         </li>
+
       </ul>
     </div>
   </div>
